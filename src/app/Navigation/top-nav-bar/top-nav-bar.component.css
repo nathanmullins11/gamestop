@@ -1,1 +1,91 @@
 /* Css goes here  */
+
+
+/* nav bar buttons on right of search bar */
+.nav-btn-btn-light {
+  border: none;
+  background-color: white;
+  margin-left: 46px;
+  padding-top: 12px;
+}
+
+/* inside of search bar */
+.form-control {
+  background-color: rgb(240, 240, 240);
+  border: none;
+  border-radius: 0px;
+}
+
+/* icons */
+.bi-nav-icons {
+  height: 30px;
+  width: 30px;
+}
+
+/* menu button */
+.btn-btn-light {
+  border: none;
+  background-color: white;
+  padding-right: 30px;
+  padding-top: 0px;
+}
+.btn-btn-light:hover {
+  color: red;
+}
+
+/* div of search bar and icon */
+.input-group {
+  width: 850px;
+}
+
+/* text of buttons */
+.text-center {
+  font-size: 12px;
+  font-weight: 630;
+}
+.text-center:hover {
+  color: red;
+}
+
+/* Gamestop word  */
+.navbar-brand {
+  padding-bottom: 30px;
+}
+
+/* search bar icon */
+.bi-input-icon {
+  height: 11px;
+  width: 11px;
+  color: black;
+}
+.bi-input-icon:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-color: red;
+}
+
+/* search bar side piece with icon */
+.input-group-text {
+  background-color: rgb(240,240,240);
+  border-radius: 0px;
+}
+
+/* trade-in icon */
+.trade-btn-btn-light {
+  border: none;
+  background-color: white;
+  margin-left: 15px;
+  padding-top: 12px;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.gamestop-logo {
+  padding-bottom: 8px;
+  padding-right: 0px;
+}
+
+
+

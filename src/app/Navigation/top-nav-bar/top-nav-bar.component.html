@@ -1,38 +1,128 @@
-<p>top-nav-bar works!</p>
+<!-- Offcanvas Sidebar -->
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="list-group">
+    <a href="#" class="list-group-item list-group-item-action" aria-current="true">Menu</a>
+    <a href="#" class="list-group-item list-group-item-action">University Town Center - GameStop
+      <h6 class="Town-Center-Open">Opens at 12:00PM</h6>
+    </a>
+    <hr>
+    <h3 class="offcanvas-shop">Shop By Category</h3>
+    <a href="#" class="list-group-item list-group-item-action">Video Games</a>
+    <a href="#" class="list-group-item list-group-item-action">Consoles & Hardware</a>
+    <a href="#" class="list-group-item list-group-item-action">Gaming Accessories</a>
+    <a href="#" class="list-group-item list-group-item-action">Pre-Owned</a>
+    <a href="#" class="list-group-item list-group-item-action">PC</a>
+    <a href="#" class="list-group-item list-group-item-action">Electronics</a>
+    <a href="#" class="list-group-item list-group-item-action">Collectibles</a>
+    <a href="#" class="list-group-item list-group-item-action">Toys & Games</a>
+    <a href="#" class="list-group-item list-group-item-action">Home</a>
+    <a href="#" class="list-group-item list-group-item-action">Clothing</a>
+    <a href="#" class="list-group-item list-group-item-action">Deals</a>
+    <h3 class="offcanvas-shop">Explore More</h3>
+    <a href="#" class="list-group-item list-group-item-action">Popular Consoles</a>
+    <a href="#" class="list-group-item list-group-item-action">Trade In</a>
+    <a href="#" class="list-group-item list-group-item-action">Gift Cards</a>
+    <a href="#" class="list-group-item list-group-item-action">PowerUp Rewards</a>
+    <a href="#" class="list-group-item list-group-item-action">Power Up Rewards Credit Card</a>
+    <a href="#" class="list-group-item list-group-item-action">Gameinformer Community</a>
+    <hr>
+    <h3 class="offcanvas-shop">Support</h3>
+    <a href="#" class="list-group-item list-group-item-action">Check an Order</a>
+    <a href="#" class="list-group-item list-group-item-action">Frequently Asked Questions</a>
+  </div>
+</div>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<!-- Button to open the offcanvas sidebar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">GameStop</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+    <!-- Menu -->
+    <button class="btn-btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+      <svg width="35px" height="18px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+        <title>menu</title>
+        <desc>Created with Sketch.</desc>
+        <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Outlined" transform="translate(-919.000000, -3438.000000)">
+                <g id="Navigation" transform="translate(100.000000, 3378.000000)">
+                    <g id="Outlined-/-Navigation-/-menu" transform="translate(816.000000, 54.000000)">
+                        <g>
+                            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                            <path d="M3,18 L21,18 L21,16 L3,16 L3,18 Z M3,13 L21,13 L21,11 L3,11 L3,13 Z M3,6 L3,8 L21,8 L21,6 L3,6 Z" id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
+      <p class="text-center">Menu</p>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <!-- Gamestop logo -->
+    <a class="navbar-brand fs-2 fw-bolder" href="#"><img src="assets/gamestop-logo-black-and-white.png" height="auto" width="155" class="gamestop-logo"></a>
+      
+    <!-- input bar -->
+    <div class="input-group mb-3">
+      <span class="input-group-text border-0" id="search-addon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-input-icon bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </span>
+      <input type="search" class="form-control" placeholder="Search games, consoles, & more" aria-label="Search" aria-describedby="search-addon" />
+    </div>
+
+    <!-- list of trade in, rewards, sign up, cart -->
+    <button class="trade-btn-btn-light">
+      <svg class="bi-nav-icons"width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+        <title>repeat</title>
+        <desc>Created with Sketch.</desc>
+        <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Outlined" transform="translate(-477.000000, -996.000000)">
+                <g id="Av" transform="translate(100.000000, 852.000000)">
+                    <g id="Outlined-/-AV-/-repeat" transform="translate(374.000000, 142.000000)">
+                        <g>
+                            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                            <path d="M7,7 L17,7 L17,10 L21,6 L17,2 L17,5 L5,5 L5,11 L7,11 L7,7 Z M17,17 L7,17 L7,14 L3,18 L7,22 L7,19 L19,19 L19,13 L17,13 L17,17 Z" id="🔹-Icon-Color" fill="#1D1D1D"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+      </svg>
+      <p class="text-center">Trade-Ins</p>
+    </button>
+    <button class="nav-btn-btn-light">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-nav-icons bi-stars" viewBox="0 0 16 16">
+        <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828l.645-1.937zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.734 1.734 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.734 1.734 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.734 1.734 0 0 0 3.407 2.31l.387-1.162zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L10.863.1z"/>
+      </svg>
+      <p class="text-center">PowerUp Rewards</p>
+    </button>
+    <button class="nav-btn-btn-light">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-nav-icons bi-person" viewBox="0 0 16 16">
+        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+      </svg>
+      <p class="text-center">Sign In</p>
+    </button>
+    <button class="nav-btn-btn-light">
+      <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+    <svg class="bi-nav-icons" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+    <style type="text/css">
+    .st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+    .st1{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st2{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+    .st3{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+    .st4{fill:none;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:3;}
+    </style>
+    <path class="st1" d="M11,19L6.4,4.5C6.2,3.6,5.3,3,4.4,3H2"/>
+    <path class="st1" d="M26,23H8.4c-1.1,0-2-0.9-2-2v0c0-1.1,0.9-1.8,2-2L29,16V6H11"/>
+    <circle class="st1" cx="11" cy="28" r="1"/>
+    <circle class="st1" cx="24" cy="28" r="1"/>
+    </svg>
+      <p class="text-center">Cart</p>
+    </button>
     </div>
   </div>
 </nav>

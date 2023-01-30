@@ -1,0 +1,131 @@
+/* footer */
+
+.space-between-header-footer {
+  width: 0px;
+  height: 1000px;
+}
+
+/* app store / google play footer  */
+.footer-apps {
+  height: 40px;
+  width: 137px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.social-media-footer-icons {
+  height: 45px;
+  width: 45px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.social-media-footer-icons-youtube {
+  height: 40px;
+  width: 40px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.footer-countries {
+  text-align: center;
+}
+.footer-countries:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: red;
+}
+
+.countries-list {
+  display:inline;
+  text-align: center;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.countries-list:hover {
+  color: red;
+  text-decoration: underline;
+  text-decoration-line: red;
+}
+.countries-list-div {
+  text-align: center;
+  /* gets countries in center */
+  padding-right:340px;
+}
+
+/* gamestop copyright bottom left footer */
+.gamestop-copyright {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* footer input */
+.footer-form-control {
+  border: none;
+  background-color: rgb(240,240,240);
+  padding-left: 15px;
+}
+/* footer input button */
+.btn-outline-secondary {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 0px;
+}
+
+/* footer email join button */
+.btn {
+  background-color: rgb(231, 35, 24);
+  color: white;
+  border-radius: 2px;
+  width: 90px;
+}
+
+.alignleft {
+  float: left;
+  width: 33.33333%;
+  text-align: left;
+}
+
+/* footer words */
+.nav-item {
+  font-size: 14px;
+  color: rgb(18,18,18); 
+  font-family: sans-serif;
+}
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+/* footer titles ie get help, legal privacy, avout us */
+.footer-titles {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+/* Get the app and Connect */
+.footer-titles-right {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+/* words under sign up in footer */
+.footer-subtitle {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+/* space between join button and icons */
+.space-for-footer {
+  width: 0px;
+}
+
+.space-for-footer-countries {
+  width: 0px;
+  height: 20px;
+  color: white;
+}
+
