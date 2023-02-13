@@ -1,18 +1,23 @@
 /* card */
- .space-between-header-footer { 
-  width: 0px;
-  height: 200px;
+.vr {
+  height: 100px;
+}
+
+.splatoon-img {
+  cursor: pointer;
 }
 
 /* hogwarts legacy tin poster img */
 .hogwarts-pre-order-img {
   width: 735.6px;
   height: 494.63px;
+  cursor: pointer;
 }
 
 .one-piece-img {
   width: 735.6px;
   height: 494.63px;
+  cursor: pointer;
 }
 
 .card-text-one-piece {

@@ -10,6 +10,10 @@ import { CardTopBrandsComponent } from './card-top-brands/card-top-brands.compon
 import { CarouselRecommendedProductsComponent } from './carousel-recommended-products/carousel-recommended-products.component';
 import { CarouselWeeksTopDealsComponent } from './carousel-weeks-top-deals/carousel-weeks-top-deals.component';
 import { CardDeadislandTradeinComponent } from './card-deadisland-tradein/card-deadisland-tradein.component';
+import { HeaderTopComponent } from './header-top/header-top.component';
+import { VerticalCardComponentComponent } from './vertical-card-component/vertical-card-component.component';
+import { VideoGamesPS5LayoutComponent } from './video-games-ps5-layout/video-games-ps5-layout.component';
+import { HomeLayoutComponent } from './home-layout/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +25,10 @@ import { CardDeadislandTradeinComponent } from './card-deadisland-tradein/card-d
     CarouselRecommendedProductsComponent,
     CarouselWeeksTopDealsComponent,
     CardDeadislandTradeinComponent,
+    HeaderTopComponent,
+    VerticalCardComponentComponent,
+    VideoGamesPS5LayoutComponent,
+    HomeLayoutComponent,
   ],
   imports: [
     BrowserModule,

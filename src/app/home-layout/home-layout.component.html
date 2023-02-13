@@ -1,0 +1,23 @@
+<!-- <p> home-layout works! </p> -->
+<app-top-nav-bar> </app-top-nav-bar>
+
+<app-card-hp-op> </app-card-hp-op>
+
+<app-card-top-brands> </app-card-top-brands>
+
+<app-card-deadisland-tradein> </app-card-deadisland-tradein>
+
+<app-carousel-weeks-top-deals> </app-carousel-weeks-top-deals>
+
+<div class="container-fluid d-flex">
+  <div *ngFor="let product of products">
+      <app-vertical-card-component class="mx-2" img="{{product.img}}" description={{product.description}} [price]= 'product.price'>
+        Loading... 
+      </app-vertical-card-component>
+    </div>
+</div>
+
+<app-footer> </app-footer>
+
+
+

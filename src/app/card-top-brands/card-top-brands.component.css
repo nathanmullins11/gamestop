@@ -1,0 +1,16 @@
+/* css */
+
+.top-brands {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.lower-body {
+  padding-top: 20px;
+}
+
+/* top-brands logos */
+.card-img-top {
+  cursor: pointer;
+}

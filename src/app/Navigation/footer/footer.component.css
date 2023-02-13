@@ -25,6 +25,7 @@
 .footer-countries {
   text-align: center;
 }
+
 .footer-countries:hover {
   text-decoration: underline;
   text-decoration-color: red;
@@ -130,4 +131,3 @@
   height: 20px;
   color: white;
 }
-

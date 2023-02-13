@@ -8,6 +8,11 @@
   padding-top: 12px;
 }
 
+ .navbar {
+  height: 95px;
+  box-shadow: 3px 3px 3px gray;
+} 
+
 /* inside of search bar */
 .form-control {
   background-color: rgb(240, 240, 240);
@@ -85,7 +90,5 @@
   padding-bottom: 8px;
   padding-right: 0px;
 }
-
-
 
 
