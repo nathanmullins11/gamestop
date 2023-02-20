@@ -1,15 +1,14 @@
 <!-- <p>vertical-card-component works!</p> -->
-
-<!-- <p>carousel-recommended-products works!</p> -->
-      <div class="card">
-        <div class="">
-          <div class="card border-0 below-header">
-            <div class="card-body">
-              <img src={{img}} class="img-fluid px-5">
-              <p class="card-text-hogwarts">{{description}}</p>
-              <p class="hogwarts-pre-order">${{price}}</p>
-            </div>
-          </div>
+<div class="container-fluid"> 
+      <div class="card me-2" style="width: 21.5rem; height: 563px;">
+        <img src={{img}} class="img-thumbnail bg-light border-0 p-5" alt="...">
+        <div class="card-body">
+          <p class="card-title fw-semibold">{{description}}</p>
+        </div>
+        <div class="card-footer bg-light border-0"> 
+          <p class="fw-bold">${{price}}</p>
         </div>
       </div>
+</div>
+
 

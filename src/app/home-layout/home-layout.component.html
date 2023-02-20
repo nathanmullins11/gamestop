@@ -1,7 +1,13 @@
 <!-- <p> home-layout works! </p> -->
 <app-top-nav-bar> </app-top-nav-bar>
 
-<app-card-hp-op> </app-card-hp-op>
+<div class="container-fluid d-flex">
+  <div *ngFor="let wide_card_product of wide_card_products">
+    <app-card-hp-op class="mx-2" img={{wide_card_product.img}} header={{wide_card_product.header}} description={{wide_card_product.description}}>
+      Loading...
+    </app-card-hp-op>
+  </div>
+</div>
 
 <app-card-top-brands> </app-card-top-brands>
 
@@ -9,12 +15,14 @@
 
 <app-carousel-weeks-top-deals> </app-carousel-weeks-top-deals>
 
+<h4 class="header text-center"> Pre-Owned iPhones </h4>
+<p class="text-decoration-underline text-center"> View All</p>
 <div class="container-fluid d-flex">
-  <div *ngFor="let product of products">
-      <app-vertical-card-component class="mx-2" img="{{product.img}}" description={{product.description}} [price]= 'product.price'>
-        Loading... 
-      </app-vertical-card-component>
-    </div>
+  <div *ngFor="let preowned_card_products of preowned_card_products">
+    <app-pre-owned-phones class="mx-2" img={{preowned_card_products.img}} [price] = 'preowned_card_products.price' description={{preowned_card_products.description}}>
+      Loading...
+    </app-pre-owned-phones>
+  </div>
 </div>
 
 <app-footer> </app-footer>

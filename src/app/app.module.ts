@@ -14,6 +14,7 @@ import { HeaderTopComponent } from './header-top/header-top.component';
 import { VerticalCardComponentComponent } from './vertical-card-component/vertical-card-component.component';
 import { VideoGamesPS5LayoutComponent } from './video-games-ps5-layout/video-games-ps5-layout.component';
 import { HomeLayoutComponent } from './home-layout/home-layout.component';
+import { PreOwnedPhonesComponent } from './pre-owned-phones/pre-owned-phones.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HomeLayoutComponent } from './home-layout/home-layout.component';
     VerticalCardComponentComponent,
     VideoGamesPS5LayoutComponent,
     HomeLayoutComponent,
+    PreOwnedPhonesComponent,
   ],
   imports: [
     BrowserModule,
