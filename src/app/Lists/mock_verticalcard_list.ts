@@ -19,5 +19,4 @@ export const mock_verticalcard_list = [
     description: "Winter Sports Games 4K Edition - PlayStation 5",
     price: 7.99
   }
-  
 ];

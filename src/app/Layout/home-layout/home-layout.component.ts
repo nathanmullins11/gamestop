@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { mock_preownedphonecard_list } from '../mock_preownedphone_list';
-import { mock_verticalcard_list } from '../mock_verticalcard_list';
-import { mock_widecard_list } from '../mock_widecard_list';
-import { PreOwnedPhoneCardItemModel } from '../preowenedphone-card-item.model';
-import { VerticalCardItemModel } from '../verticalcard-item.model';
-import { WideCardItemModel } from '../widecard-item.model';
+import { mock_preownedphonecard_list } from '../../Lists/mock_preownedphone_list';
+import { mock_verticalcard_list } from '../../Lists/mock_verticalcard_list';
+import { mock_widecard_list } from '../../Lists/mock_widecard_list';
+import { PreOwnedPhoneCardItemModel } from '../../preowenedphone-card-item.model';
+import { VerticalCardItemModel } from '../../verticalcard-item.model';
+import { WideCardItemModel } from '../../widecard-item.model';
 
 @Component({
   selector: 'app-home-layout',

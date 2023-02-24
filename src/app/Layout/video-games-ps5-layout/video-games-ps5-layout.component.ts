@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { mock_verticalcard_list } from '../mock_verticalcard_list';
-import { VerticalCardItemModel } from '../verticalcard-item.model';
+import { mock_verticalcard_list } from '../../Lists/mock_verticalcard_list';
+import { VerticalCardItemModel } from '../../verticalcard-item.model';
 
 @Component({
   selector: 'app-video-games-ps5-layout',

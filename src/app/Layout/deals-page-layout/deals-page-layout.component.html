@@ -1,9 +1,16 @@
-<!-- <p>video-games-ps5-layout works!</p> -->
+<!-- <p>deals-page-layout works!</p> -->
 <app-top-nav-bar> </app-top-nav-bar>
 
+<div class="vr" style="height: 100px"> </div>
 
-<div class="vr"> </div>
-<p> routing works! </p>
+<div class="container-fluid d-flex">
+  <div *ngFor="let square_card_product of square_card_products">
+    <app-square-card class="mx-2" img={{square_card_product.img}} description1={{square_card_product.description1}} description2={{square_card_product.description2}}>
+        Loading... 
+      </app-square-card>
+    </div>
+</div>
+
 <div class="container-fluid d-flex">
   <div *ngFor="let product of products">
       <app-vertical-card-component class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
@@ -11,7 +18,6 @@
       </app-vertical-card-component>
     </div>
 </div>
-
 
 <div class="container-fluid d-flex">
   <div *ngFor="let product of products">
