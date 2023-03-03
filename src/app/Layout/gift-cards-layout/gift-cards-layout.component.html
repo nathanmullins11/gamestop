@@ -1,10 +1,33 @@
-<p>gift-cards-layout works!</p>
-
 <app-top-nav-bar> </app-top-nav-bar>
 
-<div class="vr" style="width: 0px; height: 60px;"></div>
+<div class="vr" style="width: 0px; height: 100px;"></div>
 
-<h4 class="text-center top-brands">Shop Gift Cards Top Brands</h4>
-<app-card-top-brands> </app-card-top-brands>
+<h3 class="text-center top-brands fw-bold">Shop Gift Cards Top Brands</h3>
+
+<div class="container-fluid d-flex">
+  <div *ngFor="let product of cardshop_brands_products">
+    <app-card-shop-brands class="mx-2" img={{product.img}}>
+        Loading... 
+    </app-card-shop-brands>
+    </div>
+</div>
+
+<div class="container-fluid d-flex">
+  <div *ngFor="let product of products">
+    <app-card-shop-brands class="mx-2" img={{product.img}}>
+        Loading... 
+    </app-card-shop-brands>
+    </div>
+</div>
+
+<div class="container-fluid d-flex">
+  <div *ngFor="let product of carddeals_products">
+    <app-card-deals-page class="mx-2" img={{product.img}}>
+        Loading... 
+    </app-card-deals-page>
+    </div>
+</div>
+
+<app-card-check-card-balance> </app-card-check-card-balance>
 
 <app-footer> </app-footer>

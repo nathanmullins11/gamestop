@@ -1,0 +1,20 @@
+.card {
+  /* height: 543.4px;  */
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: box-shadow .25s;
+}
+.card:hover {
+  box-shadow: 2px 11px 11px 11px rgba(33,33,33,.2);
+}
+
+.card-title {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.card-footer {
+  font-size: 20px;
+  font-family: sans-serif;
+}

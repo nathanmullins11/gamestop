@@ -19,6 +19,12 @@ import { SignInLayoutComponent } from './Layout/sign-in-layout/sign-in-layout.co
 import { DealsPageLayoutComponent } from './Layout/deals-page-layout/deals-page-layout.component';
 import { SquareCardComponent } from './Cards/square-card/square-card.component';
 import { GiftCardsLayoutComponent } from './Layout/gift-cards-layout/gift-cards-layout.component';
+import { CardShopBrandsComponent } from './Cards/card-shop-brands/card-shop-brands.component';
+import { CardDealsPageComponent } from './Cards/card-deals-page/card-deals-page.component';
+import { CardCheckCardBalanceComponent } from './Cards/card-check-card-balance/card-check-card-balance.component';
+import { VerticalCardDealsComponent } from './Cards/vertical-card-deals/vertical-card-deals.component';
+import { CardCirclesComponent } from './Cards/card-circles/card-circles.component';
+import { CardsTwoDealsComponent } from './Cards/cards-two-deals/cards-two-deals.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +45,12 @@ import { GiftCardsLayoutComponent } from './Layout/gift-cards-layout/gift-cards-
     DealsPageLayoutComponent,
     SquareCardComponent,
     GiftCardsLayoutComponent,
+    CardShopBrandsComponent,
+    CardDealsPageComponent,
+    CardCheckCardBalanceComponent,
+    VerticalCardDealsComponent,
+    CardCirclesComponent,
+    CardsTwoDealsComponent,
   ],
   imports: [
     BrowserModule,

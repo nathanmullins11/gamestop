@@ -4,6 +4,10 @@
 <div class="vr" style="height: 100px"> </div>
 
 <div class="container-fluid d-flex">
+  <app-cards-two-deals> </app-cards-two-deals>
+</div>
+
+<div class="container-fluid d-flex">
   <div *ngFor="let square_card_product of square_card_products">
     <app-square-card class="mx-2" img={{square_card_product.img}} description1={{square_card_product.description1}} description2={{square_card_product.description2}}>
         Loading... 
@@ -12,50 +16,18 @@
 </div>
 
 <div class="container-fluid d-flex">
-  <div *ngFor="let product of products">
-      <app-vertical-card-component class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
+  <div *ngFor="let circle_product of circlecard_products">
+    <app-card-circles class="mx-2" img={{circle_product.img}} description={{circle_product.description}}>
         Loading... 
-      </app-vertical-card-component>
+    </app-card-circles>
     </div>
 </div>
 
 <div class="container-fluid d-flex">
-  <div *ngFor="let product of products">
-      <app-vertical-card-component class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
+  <div *ngFor="let product of vertical_card_deals_products">
+    <app-vertical-card-deals class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
         Loading... 
-      </app-vertical-card-component>
-    </div>
-</div>
-
-<div class="container-fluid d-flex">
-  <div *ngFor="let product of products">
-      <app-vertical-card-component class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
-        Loading... 
-      </app-vertical-card-component>
-    </div>
-</div>
-
-<div class="container-fluid d-flex">
-  <div *ngFor="let product of products">
-      <app-vertical-card-component class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
-        Loading... 
-      </app-vertical-card-component>
-    </div>
-</div>
-
-<div class="container-fluid d-flex">
-  <div *ngFor="let product of products">
-      <app-vertical-card-component class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
-        Loading... 
-      </app-vertical-card-component>
-    </div>
-</div>
-
-<div class="container-fluid d-flex">
-  <div *ngFor="let product of products">
-      <app-vertical-card-component class="mx-2" img={{product.img}} description={{product.description}} [price]= 'product.price'>
-        Loading... 
-      </app-vertical-card-component>
+    </app-vertical-card-deals>
     </div>
 </div>
 
