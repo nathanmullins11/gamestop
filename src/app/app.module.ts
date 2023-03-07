@@ -25,6 +25,8 @@ import { CardCheckCardBalanceComponent } from './Cards/card-check-card-balance/c
 import { VerticalCardDealsComponent } from './Cards/vertical-card-deals/vertical-card-deals.component';
 import { CardCirclesComponent } from './Cards/card-circles/card-circles.component';
 import { CardsTwoDealsComponent } from './Cards/cards-two-deals/cards-two-deals.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './Backend/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -51,10 +53,12 @@ import { CardsTwoDealsComponent } from './Cards/cards-two-deals/cards-two-deals.
     VerticalCardDealsComponent,
     CardCirclesComponent,
     CardsTwoDealsComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
