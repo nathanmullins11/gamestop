@@ -5,7 +5,7 @@ import { mock_circlecard_list } from 'src/app/Lists/mock_circlecard_list';
 import { mock_squarecard_list } from 'src/app/Lists/mock_squarecard_list';
 import { mock_twocardsdealspage_list } from 'src/app/Lists/mock_two-cards-deals-page_list';
 import { mock_verticalcard_deals_list } from 'src/app/Lists/mock_verticalcard_deals_list';
-import { mock_verticalcard_list } from 'src/app/Lists/mock_verticalcard_list';
+// import { mock_verticalcard_list } from 'src/app/Lists/mock_verticalcard_list';
 import { SquareCardItemModel } from 'src/app/square-card.model';
 import { VerticalCardDealsItemModel } from 'src/app/verticalcard-deals.model';
 import { VerticalCardItemModel } from 'src/app/verticalcard-item.model';
@@ -30,10 +30,10 @@ export class DealsPageLayoutComponent {
   }
 
   
-  for (var product of mock_verticalcard_list) {
-    console.log(product);
-    this.products.push(product); 
-  }
+  // for (var product of mock_verticalcard_list) {
+  //   console.log(product);
+  //   this.products.push(product); 
+  // }
 
   for (var product of mock_verticalcard_deals_list) {
     console.log(product);
