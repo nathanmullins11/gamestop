@@ -68,8 +68,8 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideDatabase(() => getDatabase())
+   // provideFirebaseApp(() => initializeApp(environment.firebase)),
+   // provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]
