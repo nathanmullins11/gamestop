@@ -6,6 +6,7 @@ import { GiftCardsLayoutComponent } from './Layout/gift-cards-layout/gift-cards-
 import { HomeLayoutComponent } from './Layout/home-layout/home-layout.component';
 import { SignInLayoutComponent } from './Layout/sign-in-layout/sign-in-layout.component';
 import { VideoGamesPS5LayoutComponent } from './Layout/video-games-ps5-layout/video-games-ps5-layout.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'cart', component: CartPageLayoutComponent},
   {path: 'sign-in', component: SignInLayoutComponent},
   {path: 'Deals', component: DealsPageLayoutComponent},
-  {path: 'giftcards', component: GiftCardsLayoutComponent}
+  {path: 'giftcards', component: GiftCardsLayoutComponent},
+  {path: 'admin', component: AddProductComponent}
 ];
 
 @NgModule({

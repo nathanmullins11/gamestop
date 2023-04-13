@@ -33,9 +33,11 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
 
-import { AngularFireModule } from '@angular/fire/compat';
-import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
-
+ import { AngularFireModule } from '@angular/fire/compat';
+//import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
+import { AddProductComponent } from './add-product/add-product.component';
+ //import { AddProductService } from './add-product.service';
+//import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,14 +64,17 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
     CardCirclesComponent,
     CardsTwoDealsComponent,
     UserInfoComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-   // provideFirebaseApp(() => initializeApp(environment.firebase)),
-   // provideDatabase(() => getDatabase())
+    AngularFireModule.initializeApp(environment.firebase),
+   // AngularFirestoreModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]

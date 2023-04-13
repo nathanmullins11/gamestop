@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "gamestop:build:production",
+            "firebaseProject": "gamestop-app-6140e",
+            "firebaseHostingSite": "gamestop-app-6140e"
+          }
         }
       }
     }

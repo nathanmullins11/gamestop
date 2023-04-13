@@ -1,0 +1,33 @@
+<p>add-product works!</p>
+
+<app-top-nav-bar>
+
+</app-top-nav-bar>
+
+<hr style="height: 100px">
+
+<div class="container">
+  <div class="row">
+      <div class="col-8">
+        <form #postform="ngForm" (ngSubmit)="addItem(postform.value)">
+            <div class="input-group">
+              <span class="input-group-text">Image Path</span>
+              <input type="text" class="form-control" ngModel name="img" >
+            </div>
+          
+            <div class="input-group">
+              <span class="input-group-text">Title</span>
+              <input type="text" class="form-control" ngModel name="description" >
+            </div>
+          
+            <div class="input-group">
+              <span class="input-group-text">Price</span>
+              <input type="text" class="form-control" ngModel name="price">
+            </div>
+          
+            <button class="btn btn-light" type="submit">Add Item</button>
+          </form>
+          
+      </div>
+  </div>
+</div>

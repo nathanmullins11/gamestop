@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "gamestop-app-6140e"
+  },
+  "targets": {
+    "gamestop-app-6140e": {
+      "hosting": {
+        "gamestop": [
+          "gamestop-app-6140e"
+        ]
+      }
+    }
   }
 }

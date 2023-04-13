@@ -11,7 +11,7 @@ export class VideoGamesPS5LayoutComponent implements OnInit {
     products: VerticalCardItemModel [] = [];
   
     constructor(private videoGamesService:VideoGamesService) {
-     
+      
     }
   ngOnInit(): void {
     this.videoGamesService.getVideoGames().subscribe((data: VerticalCardItemModel[]) => {
