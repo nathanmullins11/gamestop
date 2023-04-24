@@ -7,6 +7,7 @@ import { HomeLayoutComponent } from './Layout/home-layout/home-layout.component'
 import { SignInLayoutComponent } from './Layout/sign-in-layout/sign-in-layout.component';
 import { VideoGamesPS5LayoutComponent } from './Layout/video-games-ps5-layout/video-games-ps5-layout.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'sign-in', component: SignInLayoutComponent},
   {path: 'Deals', component: DealsPageLayoutComponent},
   {path: 'giftcards', component: GiftCardsLayoutComponent},
-  {path: 'admin', component: AddProductComponent}
+  {path: 'admin', component: AddProductComponent},
+  {path: 'auth', component: AuthComponent}
 ];
 
 @NgModule({

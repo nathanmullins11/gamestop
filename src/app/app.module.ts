@@ -36,6 +36,7 @@ import { FormsModule } from '@angular/forms';
  import { AngularFireModule } from '@angular/fire/compat';
 //import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthComponent } from './auth/auth.component';
  //import { AddProductService } from './add-product.service';
 //import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 @NgModule({
@@ -65,6 +66,7 @@ import { AddProductComponent } from './add-product/add-product.component';
     CardsTwoDealsComponent,
     UserInfoComponent,
     AddProductComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
